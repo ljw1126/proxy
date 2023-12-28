@@ -1,5 +1,9 @@
 package hello.proxy.app.v2;
 
+import hello.proxy.utils.DevUtils;
+
+import static hello.proxy.utils.DevUtils.*;
+
 public class OrderRepositoryV2 {
 
     public void save(String itemId) {
@@ -8,13 +12,5 @@ public class OrderRepositoryV2 {
             throw new IllegalStateException("예외 발생");
         }
         sleep(1000);
-    }
-
-    private void sleep(int millis) {
-        try {
-            Thread.sleep(millis);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
     }
 }
