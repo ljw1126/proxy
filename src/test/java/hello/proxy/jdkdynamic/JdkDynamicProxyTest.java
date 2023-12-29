@@ -1,10 +1,10 @@
-package hello.proxy.pureproxy.jdkdynamic;
+package hello.proxy.jdkdynamic;
 
-import hello.proxy.pureproxy.jdkdynamic.code.AImpl;
-import hello.proxy.pureproxy.jdkdynamic.code.AInterface;
-import hello.proxy.pureproxy.jdkdynamic.code.BImpl;
-import hello.proxy.pureproxy.jdkdynamic.code.BInterface;
-import hello.proxy.pureproxy.jdkdynamic.code.TimeInvocationHandler;
+import hello.proxy.jdkdynamic.code.AImpl;
+import hello.proxy.jdkdynamic.code.AInterface;
+import hello.proxy.jdkdynamic.code.BImpl;
+import hello.proxy.jdkdynamic.code.BInterface;
+import hello.proxy.jdkdynamic.code.TimeInvocationHandler;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
