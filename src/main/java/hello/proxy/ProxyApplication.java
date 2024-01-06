@@ -1,15 +1,5 @@
 package hello.proxy;
 
-import hello.proxy.config.AppV1Config;
-import hello.proxy.config.AppV2Config;
-import hello.proxy.config.ConcreteProxyConfig;
-import hello.proxy.config.InterfaceProxyConfig;
-import hello.proxy.config.ProxyFactoryConfigV1;
-import hello.proxy.config.ProxyFactoryConfigV2;
-import hello.proxy.config.dynamicproxy.DynamicProxyBasicConfig;
-import hello.proxy.config.dynamicproxy.DynamicProxyFilterConfig;
-import hello.proxy.config.v4_postprocessor.BeanPostProcessConfig;
-import hello.proxy.config.v5_autoproxy.AutoProxyConfig;
 import hello.proxy.config.v6_aspect.AopConfig;
 import hello.proxy.trace.logtrace.LogTrace;
 import hello.proxy.trace.logtrace.ThreadLocalLogTrace;

@@ -1,8 +1,6 @@
 package hello.proxy.app.v2;
 
-import hello.proxy.utils.DevUtils;
-
-import static hello.proxy.utils.DevUtils.*;
+import static hello.proxy.utils.DevUtils.sleep;
 
 public class OrderRepositoryV2 {
 

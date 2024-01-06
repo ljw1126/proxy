@@ -1,11 +1,6 @@
 package hello.proxy.config;
 
-import hello.proxy.app.v1.OrderControllerV1;
-import hello.proxy.app.v1.OrderControllerV1Impl;
-import hello.proxy.app.v1.OrderRepositoryV1;
-import hello.proxy.app.v1.OrderRepositoryV1Impl;
-import hello.proxy.app.v1.OrderServiceV1;
-import hello.proxy.app.v1.OrderServiceV1Impl;
+import hello.proxy.app.v1.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

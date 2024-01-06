@@ -1,6 +1,5 @@
 package hello.proxy.advisor;
 
-import hello.proxy.common.advice.TimeAdvice;
 import hello.proxy.common.service.ServiceImpl;
 import hello.proxy.common.service.ServiceInterface;
 import lombok.extern.slf4j.Slf4j;

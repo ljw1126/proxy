@@ -1,6 +1,5 @@
 package hello.proxy.app.v3;
 
-import hello.proxy.app.v2.OrderRepositoryV2;
 import org.springframework.stereotype.Service;
 
 @Service
